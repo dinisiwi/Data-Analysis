@@ -73,6 +73,7 @@ sns.boxplot( x= 'Inflasi',  data=dataset_inflasi, orient='v');
 <matplotlib.axes._subplots.AxesSubplot object at 0x0C979830>
 plt.show()
 print(plt.show())
+![](Image/Boxplot.png)
 
 #plot data inflasi dalam bentuk grafik
 register_matplotlib_converters()
@@ -87,4 +88,6 @@ Text(0,0.5,'Inflasi')
 plt.xlabel('Tahun')
 Text(0.5,0,'Tahun')
 plt.show()
-print(plt.show())    
+print(plt.show())
+![](Image/Grafik.png)
+
