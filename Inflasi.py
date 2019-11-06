@@ -91,3 +91,8 @@ plt.show()
 print(plt.show())
 ![](Image/Grafik.png)
 
+#Hasil analisis deskriptif menunjukkan bahwa :
+#Tingkat inflasi tertinggi terjadi pada November 2005 sebesar 18.38%
+#Tingkat inflasi terendah terjadi pada Desember 2002 sebesar 0%
+#Rata-rata inflasi dari Desember 2002 hingga Juni 2019 adalah sebesar 6.31%
+#Tingkat keragaman inflasi sebesar 0.1094%
