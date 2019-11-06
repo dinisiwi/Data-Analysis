@@ -68,9 +68,7 @@ dtype: float64
     
 #plot data inflasi dalam bentuk boxplot
 plt.figure(figsize=(4,7))
-<Figure size 400x700 with 0 Axes>
 sns.boxplot( x= 'Inflasi',  data=dataset_inflasi, orient='v');
-<matplotlib.axes._subplots.AxesSubplot object at 0x0C979830>
 plt.show()
 print(plt.show())
 ![Boxplot](https://user-images.githubusercontent.com/57424014/68320038-d9d5b080-00f1-11ea-9596-261f655c5583.png)
@@ -78,15 +76,10 @@ print(plt.show())
 #plot data inflasi dalam bentuk grafik
 register_matplotlib_converters()
 plt.figure(figsize=(10,6))
-<Figure size 1000x600 with 0 Axes>
 plt.plot(dataset_inflasi['Tanggal'],dataset_inflasi['Inflasi'])
-[<matplotlib.lines.Line2D object at 0x08B0C9B0>]
 plt.title('Inflasi')
-Text(0.5,1,'Inflasi')
 plt.ylabel('Inflasi')
-Text(0,0.5,'Inflasi')
 plt.xlabel('Tahun')
-Text(0.5,0,'Tahun')
 plt.show()
 print(plt.show())    
 ![Grafik](https://user-images.githubusercontent.com/57424014/68320185-130e2080-00f2-11ea-96b7-259938dcaffe.png)
